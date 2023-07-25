@@ -1,0 +1,239 @@
+*{
+    font-family: montserrat;
+}
+body{
+    background: brown;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 2px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;   
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-light .navbar-barnd{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-barnd:hover{
+    color: #000;
+
+}
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+
+}
+.w-100{
+    height: 100vh;
+}
+.service .card-body i{
+    font-size: 50px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+
+    }
+    .carousel-caption p{
+        width: 100%;
+    } 
+}
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+
+    } 
+
+}
+.services {
+    text-align: center;
+  }
+  .services .section-header {
+    text-align: center;
+  }
+.services section-padding {
+    background-color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .services .section-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .services .section-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #222222;
+  }
+  
+  .services .section-header p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+  }
+  
+  .services .card {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .services .card .card-body {
+    padding: 15px;
+  }
+  
+  .services .card .card-body .i {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .services .card .card-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+  }
+  
+  .services .card .card-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+  }
+  
+  .services .card .card-body .btn {
+    background-color: #ffbb00;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .services .card:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services .card:hover .card-body {
+    background-color: #f7f7f7;
+  }
+  #contactus{
+    margin: 50px auto;
+    border: 2px solid #6696cd;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    height: 380px;
+}
+
+
+
+input[type='text']{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+input[type='email']{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;   
+}
+
+input[type='date']{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+          
+}
+
+button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+.sociallinks ul li a{
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 2em;
+    color: white;
+}
+
+.sociallinks ul li a:hover{
+    border-radius: 10px;
+    border: 2px solid #dd7f19;
+}
+
+.sociallinks ul li a:active{
+
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid #CD6688;
+}
+
+
+
