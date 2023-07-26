@@ -116,13 +116,13 @@ body{
   .services .section-header h2 {
     font-size: 24px;
     font-weight: 700;
-    color: #222222;
+    color: #f0e6e6;
   }
   
   .services .section-header p {
     font-size: 16px;
     font-weight: 400;
-    color: #777777;
+    color: #f7f5f5;
   }
   
   .services .card {
@@ -144,13 +144,13 @@ body{
   .services .card .card-body h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #222222;
+    color: #f1ecec;
   }
   
   .services .card .card-body p {
     font-size: 16px;
     font-weight: 400;
-    color: #777777;
+    color: #f1e5e5;
   }
   
   .services .card .card-body .btn {
